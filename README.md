@@ -1,4 +1,5 @@
-# HPV vaccination uptake among adolescent girls in Ethiopia: survey-weighted analysis and explainable machine learning
+# An Explainable Machine Learning Approach to Human Papillomavirus Vaccination Uptake Among Adolescent Girls in Ethiopia
+
 
 Code for the manuscript "An Explainable Machine Learning Approach to Human Papillomavirus Vaccination Uptake Among Adolescent Girls in Ethiopia" (Intelligence-Based Medicine). The analysis uses girls aged 15 to 17 years in the 2024-25 Ethiopia Demographic and Health Survey (EDHS; 2,842 girls with a reported vaccination status).
 
