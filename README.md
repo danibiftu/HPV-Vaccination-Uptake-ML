@@ -6,13 +6,6 @@ Code for the manuscript "An Explainable Machine Learning Approach to Human Papil
 ## Data (not included)
 DHS data cannot be redistributed. Register and request the Ethiopia 2024-25 individual recode (`ETIR8AFL`) at https://dhsprogram.com/data/. Place the files in `data/` (next to the script):
 
-| File | Content |
-|---|---|
-| `data/hpv_vaccination_clean.dta` | analysis file of the 2,842 girls with the 21 covariates, in the survey's row order |
-| `data/ETIR8AFL.dta` | EDHS 2024-25 individual recode (source of weights, PSU, strata; used by step 0) |
-
-`HPV_DATA_DIR` and `EDHS_IR_DTA` override the locations. All figures and tables are written to `data/`; row-level files are not committed (see `.gitignore`).
-
 ## Run
 Python 3.10 or later: `pip install -r requirements.txt`, then `python hpv_vaccination_uptake_ml.py`.
 Set `RUN_NESTED_CV = False` at the top of the script to skip the slow nested cross-validation (5 repeats x 20 search draws) and reuse the `nested_cv_*.csv` files already in `data/`.
