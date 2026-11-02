@@ -4,7 +4,7 @@
 Code for the manuscript "An Explainable Machine Learning Approach to Human Papillomavirus Vaccination Uptake Among Adolescent Girls in Ethiopia" (Intelligence-Based Medicine). The analysis uses girls aged 15 to 17 years in the 2024-25 Ethiopia Demographic and Health Survey (EDHS; 2,842 girls with a reported vaccination status).
 
 ## Data (not included)
-DHS data cannot be redistributed. Register and request the Ethiopia 2024-25 individual recode (`ETIR8AFL`) at https://dhsprogram.com/data/. Place the files in `data/` (next to the script):
+DHS data cannot be redistributed. Register and request the Ethiopia 2024-25 individual recode (`ETIR8AFL`) at https://dhsprogram.com/data/. 
 
 ## Run
 Python 3.10 or later: `pip install -r requirements.txt`, then `python hpv_vaccination_uptake_ml.py`.
