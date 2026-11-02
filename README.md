@@ -7,8 +7,7 @@ Code for the manuscript "An Explainable Machine Learning Approach to Human Papil
 DHS data cannot be redistributed. Register and request the Ethiopia 2024-25 individual recode (`ETIR8AFL`) at https://dhsprogram.com/data/. 
 
 ## Run
-Python 3.10 or later: `pip install -r requirements.txt`, then `python hpv_vaccination_uptake_ml.py`.
-Set `RUN_NESTED_CV = False` at the top of the script to skip the slow nested cross-validation (5 repeats x 20 search draws) and reuse the `nested_cv_*.csv` files already in `data/`.
+Python 3.10 or later: `pip install -r requirements.txt`, then `python hpv_vaccination_uptake_ml.py.
 
 ## Pipeline (one file, `hpv_vaccination_uptake_ml.py`)
 | Function | Purpose |
